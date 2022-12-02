@@ -28,11 +28,11 @@ body,
   --secondary: var(--black);
 }
 .lightmode {
-  --primary: var(--black);
-  --secondary: var(--white);
+  --primary: var(--black);  
+  --secondary: var(--white) ;
 }
 .hero {
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 .main { 
   background-color: var(--secondary);

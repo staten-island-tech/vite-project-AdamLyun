@@ -18,7 +18,6 @@ DOMSelectors.button.addEventListener("click", function () {
 champion.forEach(champ => { DOMSelectors.box.insertAdjacentHTML(
     "beforeend",
     `
-
     <div class="inner">  
     <p>${champ.id} </p>
     </div>

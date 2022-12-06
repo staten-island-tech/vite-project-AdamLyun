@@ -19,9 +19,24 @@ champion.forEach(champ => { DOMSelectors.box.insertAdjacentHTML(
     "beforeend",
     `
     <div class="inner">  
-    <p>${champ.id} </p>
+    <p>${champ.name} </p>
+    <img src="${champ.id}.png" alt="No Image???">
+    </div>
+`
+
+  );
+});
+
+DOMSelectors.button2.addEventListener("click", function(){
+  champion.filter((champion) => champion.tags.includes(`Marksman`))
+  .forEach(champ => { DOMSelectors.box.insertAdjacentHTML(
+    "beforeend",
+    `
+    <div class="inner">  
+    <p>${champ.name} </p>
     </div>
 `
   );
-    
-});
+  });
+
+})  

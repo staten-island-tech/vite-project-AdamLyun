@@ -1,5 +1,5 @@
   
-  .container-box {
+  #container-box {
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
@@ -8,13 +8,12 @@
   
   .inner {
     background-color: var(--secondary);
-    border: 8px solid;
+    border: 20px solid;
     border-radius: 10%;
     width: 43rem;
     height: 50rem;
     margin: 2%;
-    align-content: flex-end;
-    box-shadow: 2em 2em 2em;
+    font-size: 5rem;
   }
   
   img {

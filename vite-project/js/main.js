@@ -15,17 +15,21 @@ DOMSelectors.button.addEventListener("click", function () {
   }
 });
 
+createcards()
+
+function createcards(){
 champion.forEach(champ => { DOMSelectors.box.insertAdjacentHTML(
     "beforeend",
     `
-    <div class="inner">  
+    <div class="inner">   
     <p>${champ.name} </p>
     <img src="${champ.id}.png" alt="No Image???">
+    <p>${champ.title}</p>
     </div>
 `
-
   );
 });
+};
 
 DOMSelectors.button2.addEventListener("click", function(){
   champion.filter((champion) => champion.tags.includes(`Marksman`))
@@ -34,9 +38,11 @@ DOMSelectors.button2.addEventListener("click", function(){
     `
     <div class="inner">  
     <p>${champ.name} </p>
+    <img src="${champ.id}.png" alt="No Image???">
+    <p>${champ.title}</p>
     </div>
 `
   );
   });
-
-})  
+  
+}) ; 

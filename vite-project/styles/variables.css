@@ -9,9 +9,9 @@
   .inner {
     background-color: var(--secondary);
     border: 20px solid;
-    border-radius: 10%;
-    width: 43rem;
-    height: 67rem;
+    border-radius: 6%;
+    width: 62rem;
+    height: 70rem;
     margin: 2%;
     font-size: 5rem;
   }

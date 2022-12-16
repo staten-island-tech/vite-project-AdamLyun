@@ -1,7 +1,7 @@
 
 const champion = [
   {
-    id: "../assets/aatrox.png",
+    id: "/aatrox",
     key: "1",
     name: "Aatrox",
     title: "The Darkin Blade",

@@ -10,7 +10,7 @@ const commands = {
         `
         <div class="inner">   
         <p>${champ.name} </p>
-        <img src="${champ.id}.png" alt="No Image???">
+        <img src="${champ.id}" alt="No Image???">
         <p>${champ.title}</p>
         </div>
     `
